@@ -1,5 +1,5 @@
 radio.onReceivedString(function (receivedString) {
-    basic.showString(receivedString)
+    basic.showIcon(IconNames.Duck)
 })
 input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
